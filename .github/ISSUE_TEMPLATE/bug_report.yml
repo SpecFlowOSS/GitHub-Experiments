@@ -74,7 +74,7 @@ body:
       - .NET Core 2.2
       - .NET Core 2.1
       - .NET Core 2.0
-      - >= .NET Framework 4.6.1
+      - equal or greater .NET Framework 4.6.1
       - before .NET Framework 4.6.1
   validations:
     required: true
