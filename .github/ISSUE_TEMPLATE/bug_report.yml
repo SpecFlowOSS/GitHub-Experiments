@@ -35,8 +35,8 @@ body:
   attributes:
     label: .feature.cs files are generated using
     options:
-      - `SpecFlow.Tools.MsBuild.Generation` NuGet package
-      - `SpecFlowSingleFileGenerator` custom tool
+      - SpecFlow.Tools.MsBuild.Generation NuGet package
+      - SpecFlowSingleFileGenerator custom tool
   validations:
     required: true
 - type: dropdown 
