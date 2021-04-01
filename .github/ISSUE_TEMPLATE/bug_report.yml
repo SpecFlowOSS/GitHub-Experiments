@@ -50,7 +50,7 @@ body:
     required: true
 - type: dropdown 
   attributes:
-    label: `Enable SpecFlowSingleFileGenerator Custom Tool` option in Visual Studio extension settings
+    label: Enable SpecFlowSingleFileGenerator Custom Tool option in Visual Studio extension settings
     options:
       - Enabled
       - Disabled
