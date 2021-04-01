@@ -5,8 +5,8 @@ body:
 - type: input
   attributes:
     label: SpecFlow Version
-    validations:
-      required: true
+  validations:
+    required: true
 # - type: dropdown
 #   attributes:
 #     label: Which test runner are you using?
