@@ -80,7 +80,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: Test Execution Method:
+    label: Test Execution Method
     options:
       - Visual Studio Test Explorer
       - TFS/VSTS/Azure DevOps – Task – PLEASE SPECIFY THE NAME OF THE TASK
