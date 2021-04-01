@@ -2,14 +2,11 @@
 name: Bug report
 description: Create a report to help us improve SpecFlow
 body:
-
-
 - type: input
   attributes:
     label: SpecFlow Version
     validations:
       required: true
-
 - type: dropdown
   attributes:
     label: Which test runner are you using?
@@ -20,14 +17,11 @@ body:
       - xUnit
     validations:
       required: true
-
-
 - type: input
   attributes:
     label: Test Runner Version Number
     validations:
       required: true
-
 - type: dropdown 
   attributes:
     label: Project Format of the SpecFlow project
@@ -37,8 +31,6 @@ body:
       - Classic project format using `<PackageReference>` tags
     validations:
       required: true
-
-
 - type: dropdown 
   attributes:
     label: .feature.cs files are generated using
@@ -47,8 +39,6 @@ body:
       - `SpecFlowSingleFileGenerator` custom tool
     validations:
       required: true
-
-
 - type: dropdown 
   attributes:
     label: Used IDE
@@ -58,8 +48,6 @@ body:
       - Jetbrains Rider
     validations:
       required: true
-
-
 - type: dropdown 
   attributes:
     label: `Enable SpecFlowSingleFileGenerator Custom Tool` option in Visual Studio extension settings
@@ -68,8 +56,6 @@ body:
       - Disabled
     validations:
       required: true
-
-
 - type: dropdown
   attributes:
     label: Are the latest Visual Studio updates installed?
@@ -78,8 +64,6 @@ body:
       - No, I use Visual Studio version `<Major>.<Minor>.<Patch>` <!-- e.g. 16.1.0 -->
     validations:
       required: true
-
-
 - type: dropdown
   attributes:
     label: .NET Implementation
@@ -94,8 +78,6 @@ body:
       - before .NET Framework 4.6.1
     validations:
       required: true
-
-      
 - type: dropdown
   attributes:
     label: Test Execution Method:
@@ -105,28 +87,22 @@ body:
       - Command line – PLEASE SPECIFY THE FULL COMMAND LINE
     validations:
       required: true
- 
 - type: textarea
   attributes:
     label: SpecFlow Section in app.config or content of specflow.json
     placeholder: PLEASE COPY THE ENTIRE <SpecFlow> SECTION IN YOUR .config FILE or THE ENTIRE specflow.json
-
 - type: textarea
   attributes:
     label: Issue Description
     validations:
       required: true
-
 - type: textarea
   attributes:
     label: Steps to Reproduce
     validations:
       required: true
-
-
 - type: input
   attributes:
     label: Link to Repository Project
     validations:
       required: false
-
