@@ -60,8 +60,8 @@ body:
   attributes:
     label: Are the latest Visual Studio updates installed?
     options:
-      - Yes
-      - No, I use Visual Studio version `<Major>.<Minor>.<Patch>` <!-- e.g. 16.1.0 -->
+      - 'Yes'
+      - 'No'
   validations:
     required: true
 - type: dropdown
