@@ -1,6 +1,8 @@
 ---
 name: Bug report
 description: Create a report to help us improve SpecFlow
+lables:
+- Bug
 body:
 - type: input
   attributes:
@@ -22,6 +24,20 @@ body:
     label: Test Runner Version Number
   validations:
     required: true
+- type: dropdown
+  attributes:
+    label: .NET Implementation
+    options:
+      - .NET 5.0
+      - .NET Core 3.1
+      - .NET Core 3.0
+      - .NET Core 2.2
+      - .NET Core 2.1
+      - .NET Core 2.0
+      - equal or greater .NET Framework 4.6.1
+      - before .NET Framework 4.6.1
+  validations:
+    required: true
 - type: dropdown 
   attributes:
     label: Project Format of the SpecFlow project
@@ -37,20 +53,6 @@ body:
     options:
       - SpecFlow.Tools.MsBuild.Generation NuGet package
       - SpecFlowSingleFileGenerator custom tool
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: .NET Implementation
-    options:
-      - .NET 5.0
-      - .NET Core 3.1
-      - .NET Core 3.0
-      - .NET Core 2.2
-      - .NET Core 2.1
-      - .NET Core 2.0
-      - equal or greater .NET Framework 4.6.1
-      - before .NET Framework 4.6.1
   validations:
     required: true
 - type: dropdown
