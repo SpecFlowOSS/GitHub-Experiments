@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Visual Studio Bug report
 description: Create a report to help us improve the SpecFlow Visual Studio Extension
 body:
 - type: dropdown 
