@@ -39,31 +39,6 @@ body:
       - SpecFlowSingleFileGenerator custom tool
   validations:
     required: true
-- type: dropdown 
-  attributes:
-    label: Used IDE
-    options:
-      - Visual Studio 2019
-      - Visual Studio 2017
-      - Jetbrains Rider
-  validations:
-    required: true
-- type: dropdown 
-  attributes:
-    label: Enable SpecFlowSingleFileGenerator Custom Tool option in Visual Studio extension settings
-    options:
-      - Enabled
-      - Disabled
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Are the latest Visual Studio updates installed?
-    options:
-      - 'Yes'
-      - 'No'
-  validations:
-    required: true
 - type: dropdown
   attributes:
     label: .NET Implementation
