@@ -1,8 +1,7 @@
 ---
 name: Bug report
 description: Create a report to help us improve SpecFlow
-lables:
-- Bug
+lables: [Bug]
 body:
 - type: input
   attributes:
